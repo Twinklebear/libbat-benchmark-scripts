@@ -1,0 +1,24 @@
+IOR START
+    filePerProc=0
+    api=HDF5
+    fsync=0
+    repetitions=15
+    verbose=1
+    # Note: in KiB! Not kb
+    blockSize=3875k
+    transferSize=3875k
+    keepFile=0
+    RUN
+    filePerProc=0
+    api=HDF5
+    fsync=0
+    repetitions=15
+    verbose=1
+    blockSize=7750k
+    transferSize=7750k
+    keepFile=0
+    RUN
+IOR STOP
+
+
+
